@@ -1,0 +1,430 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MY CODE*/
+
+/*header style*/
+header{
+    position: fixed;
+    width:100%;
+    top: 0px;
+    opacity: 0.9;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#928B8B;
+}
+#nav{
+    width:100%;
+    height: 150px;
+    background-image: url("img2.jpg");
+    background-size: cover;
+}
+#nav_wrapper{
+    height: 100px;
+    width:700px;
+    background-color: rgba(7, 56, 68, 0.73);
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 7px;
+    opacity: 0.7;
+    filter :alpha(opacity=70);
+}
+#nav_wrapper ul li{
+    list-style:none;
+    display: inline;
+    font-weight: bold;
+    padding: 20px;
+
+}
+#nav_wrapper a{
+    font-family: Arial, Helvetica, sansserif-;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}#nav_wrapper ul li:hover{
+    background: red;
+    transition: all 0.45s;
+    opacity: 0.5;
+    filter:alpha(opacity=90);
+}
+#nav_wrapper ul li.a{
+    margin-left: 10px;
+
+}
+#nav_wrapper ul li.b{
+    margin-left: 250px;
+
+}
+#nav_wrapper ul li.admin{
+    margin-left: 150px;
+    margin-top:80px;
+
+}
+/*footer style*/
+#me{
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    opacity: 0.9;
+}
+
+#foot{
+    width:100%;
+    height:50px;
+    background-image: url("img2.jpg");
+    background-size: cover;
+    
+}
+#foot p{
+    font-family: Arial, Helvetica, sansserif-;
+    font-size: 20px;
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+}
+#foot p a{
+    
+    color:#47F180;
+}
+#foot p a:hover{
+    color:white;
+    background-color: red;;
+    transition: all 0.45s;
+    opacity: 0.5;
+}
+
+
+/*style for section area of index.php*/
+.button {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    margin:30px;
+}
+
+.big-btn {
+    margin-top:350px; 
+    margin-left: 200px;
+    width: 300px;
+    height: 40px;
+}
+.big-sml {
+    margin-top:350px; 
+    float: right;
+    margin-right: 200px;
+    width: 300px;
+    height: 40px;
+}
+.aa{
+  height: 420px;;
+    width: 100%;
+    
+} 
+.bb{
+    height: 420px;;
+      width: 50%;
+      float: left;
+  }  
+  .cc{
+    height: 420px;;
+      width: 45%;
+      float: right;
+  } 
+  .a1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top:3px;
+    color:#47F180;
+  }
+.button:hover{
+    color:white;
+    background-color: red;;
+    transition: all 0.45s;
+    opacity: 0.5;
+}
+.a2{
+    font-family: Arial, Helvetica, sansserif-;
+    font-size: 25px;
+    text-align: center;
+    margin-top:3px;
+    color:#47F180;
+}
+/*heree    start    rto styling*/ 
+<style type="text/css">
+body {
+background-color: #f4f4f4;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin-top:200px;
+margin-left: 430px;
+width: 200px;
+
+}
+#login h1{
+    margin-top:230px;
+    margin-left: 170px;
+    width: 200px;
+    
+    }
+form fieldset input[type="text"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 25px;
+height: 80px;
+outline: none;
+padding-left:200px;
+width: 300px;
+margin-top: 0px;
+-webkit-appearance:none;
+}
+form fieldset input[type="password"] {
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #5a5656;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    height: 80px;
+    outline: none;
+    padding-left:200px;
+    width: 300px;
+    margin-top: 10px;
+    -webkit-appearance:none;
+    }
+form fieldset input[type="submit"] {
+background-color: #008dde;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 80px;
+text-transform: uppercase;
+width: 250px;
+margin-left: 140px;
+margin-top: 15px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #5a5656;
+font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+fieldset{
+    margin-top: 30px;
+    width:500px;
+    height:400px;
+}
+
+/*styling for homepage*/
+.button2 {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    margin:30px;
+}
+
+.big-btn2 {
+    margin-top:350px; 
+    margin-left: 70px;
+    width: 300px;
+    height: 40px;
+}
+.big-sml2 {
+    margin-top:350px; 
+    float:right;
+    margin-right:500px;
+    width: 300px;
+    height: 40px;
+}
+.big-sml3 {
+    margin-top:350px; 
+    float:right;
+    margin-right:70px;
+    margin-top:-70px;
+    width: 300px;
+    height: 40px;
+}
+.aaa{
+  height: 420px;;
+    width: 100%;
+    
+} 
+.bbb{
+    height: 420px;;
+      width: 50%;
+      float: left;
+  }  
+  .ccc{
+    height: 420px;;
+      width: 45%;
+      float: right;
+  } 
+  .ddd{
+    height: 420px;;
+      width: 45%;
+      float: right;
+  } 
+  .a11{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top:3px;
+    color:#47F180;
+  }
+.button2:hover{
+    color:white;
+    background-color: red;;
+    transition: all 0.45s;
+    opacity: 0.5;
+}
+.a22{
+    font-family: Arial, Helvetica, sansserif-;
+    font-size: 18px;
+    text-align: center;
+    margin-top:3px;
+    color:#47F180;
+}
+.a33{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top:3px;
+    color:#47F180;
+  }
+  
+
+
+
+
+  
+
